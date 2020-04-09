@@ -1,0 +1,15 @@
+[package]
+name = "rust-wasm-bindgen-app"
+description = "Rust Webassembly Javascript application"
+version = "0.1.0"
+authors = ["Peramanathan Sathyamoorthy <sathyam.peram@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "0.2.60"
+
+[lib]
+crate-type = ["cdylib"]
